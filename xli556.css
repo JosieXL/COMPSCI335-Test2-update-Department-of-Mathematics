@@ -1,0 +1,114 @@
+.Navigation {
+    width:100%;
+    border:8px solid #456789;
+    padding:6px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.homeP {
+    font-size: larger;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hrlineTop {
+    height: 3px;
+    color: black;
+    background-color: #456789;
+}
+
+.hrline {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+#StaffInfo {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#name {
+    font-size: larger;
+    vertical-align: middle;
+}
+
+#imageIdImage {
+    width: 25%;
+}
+
+#undefinedImage {
+    width: 25%;
+}
+
+pre {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%; 
+    padding: 5px; 
+    margin: 0 0 5px;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+#titleTowhenLastUpdated {
+    width: 100%;
+    height: 100%; 
+    padding: 5px; 
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+#CourseTimetable {
+    display: none;
+    border: 3px solid gray;
+    border-radius: 5%;
+    position: fixed;
+    height: 200px;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    margin-top: -10%;
+    margin-left: -20%;
+    z-index: 2;
+    background-color: rgb(241, 241, 241);
+    overflow-y: scroll;
+}
+
+#close {
+    font-size: x-large;
+    cursor: pointer;
+    float: right;
+}
+
+#divInText {
+    margin-left: 10px;
+}
+
+#OrgNbrTitle,
+#pointAndSemester,
+#descr,
+#rqrmntDescr {
+    margin-left: 10px;
+}
+
+#OrgNbrTitle {
+    cursor: pointer;
+}
+
+#testCase {
+    margin-left: 10px;
+}
+
+#textInSVG {
+    font-size: large;
+}
